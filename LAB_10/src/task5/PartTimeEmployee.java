@@ -10,4 +10,7 @@ public class PartTimeEmployee extends Employee implements TaxPayer{
     public void payTax() {
         System.out.println("2% tax payed");
     }
+    public PartTimeEmployee(String name, int age){
+        super(name, age);
+    }
 }
