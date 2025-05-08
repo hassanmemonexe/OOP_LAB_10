@@ -10,4 +10,8 @@ public class FullTimeEmployee extends Employee implements TaxPayer{
     public void payTax() {
         System.out.println("5% tax payed");
     }
+
+    public FullTimeEmployee(String name, int age){
+        super(name, age);
+    }
 }
